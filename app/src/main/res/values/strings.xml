@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">GoogleMpasEjemplo1</string>
+    <string name="api_key">AIzaSyAH1nOhGv7gU-aLktBz7tPxqnDSTQZLopE</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="mi_ubicacion">Mi ubicación</string>
+    <!--antennas-->
+    <string name="punto_central">Eliga el punto central</string>
+    <string name="opccion">Eliga alguna opcción</string>
+    <string name="mapa_digitar">Digitar</string>
+    <string name="mapa_ubicar">Ubicar</string>
+    <string name="n_atenna">Nueva atenna</string>
+    <string name="n_coordenadas">Ingrese cordenadas</string>
+    <string name="latitud">Latitud</string>
+    <string name="longitud">Longitud</string>
+    <string name="registrar">Registrar</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="antena">Antena</string>
+    <string name="no_atennas">No hay antenas cercanas</string>
+    <!--descargas-->
+    <string name="Descargando">Descargando altura</string>
+    <!--altura-->
+    <string name="jsonURL">https://maps.googleapis.com/maps/api/elevation/json?locations=</string>
+    <string name="jsonkey">key=</string>
+    <!--ruta-->
+    <string name="jsonRuta">https://maps.googleapis.com/maps/api/directions/json</string>
+    <string name="fallo_internet">Revise su conexión</string>
+    <!--JSON-->
+    <string name="results">results</string>
+    <string name="altura_0">0</string>
+    <string name="elevation">elevation</string>
+    <string name="termino">Termino</string>
+    <string name="antennas_json">antennas.json</string>
+    <string name="path_assets">file:///android_asset/</string>
+    <!--Preferencias-->
+    <string name="preferencias">preferences</string>
+    <string name="radio">radio</string>
+    <string name="radio_default">50000</string>
+    <string name="invetervalo">intervalo</string>
+    <string name="intervalo_default">500</string>
+    <string name="radio_nuevo_text">Digite el nuevo radio (KM)</string>
+    <string name="intervalo_nuevo_text">Digite el numero intervalo (M)</string>
+    <string name="radio_actual">El radio actual es: </string>
+    <string name="intervalo_actual">El nuevo intervalo es: </string>
+</resources>
