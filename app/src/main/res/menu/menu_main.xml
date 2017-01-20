@@ -7,4 +7,7 @@
     <item android:id="@+id/intervalo_nuevo"
 
         android:title="@string/invetervalo" />
+    <item android:id="@+id/recargarAlturas"
+        android:title="@string/recargaralgura"
+        ></item>
 </menu>

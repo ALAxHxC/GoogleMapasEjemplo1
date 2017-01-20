@@ -1,4 +1,4 @@
-package com.dcs.googlempasejemplo1;
+package com.ponny.radiomobile;
 
 import org.junit.Test;
 

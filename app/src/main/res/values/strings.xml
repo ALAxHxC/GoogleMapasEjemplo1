@@ -1,7 +1,7 @@
 <resources>
-    <string name="app_name">GoogleMpasEjemplo1</string>
-    <string name="api_key">AIzaSyAH1nOhGv7gU-aLktBz7tPxqnDSTQZLopE</string>
-    <string name="title_activity_maps">Map</string>
+    <string name="app_name">Radio App</string>
+    <string name="api_key">AIzaSyCNtm7_fm5c2xOH9hHVXLDlFtVFhMjLfag</string>
+    <string name="title_activity_maps">Radio App</string>
     <string name="mi_ubicacion">Mi ubicación</string>
     <!--antennas-->
     <string name="punto_central">Eliga el punto central</string>
@@ -20,7 +20,7 @@
     <string name="Descargando">Descargando altura</string>
     <!--altura-->
     <string name="jsonURL">https://maps.googleapis.com/maps/api/elevation/json?locations=</string>
-    <string name="jsonkey">key=</string>
+    <string name="jsonkey">key=AIzaSyBw7XkHgSnlOaHTSaWkTam64LPZH8LHUGo</string>
     <!--ruta-->
     <string name="jsonRuta">https://maps.googleapis.com/maps/api/directions/json</string>
     <string name="fallo_internet">Revise su conexión</string>
@@ -36,9 +36,36 @@
     <string name="radio">radio</string>
     <string name="radio_default">50000</string>
     <string name="invetervalo">intervalo</string>
-    <string name="intervalo_default">500</string>
+    <string name="intervalo_default">5000</string>
     <string name="radio_nuevo_text">Digite el nuevo radio (KM)</string>
     <string name="intervalo_nuevo_text">Digite el numero intervalo (M)</string>
     <string name="radio_actual">El radio actual es: </string>
     <string name="intervalo_actual">El nuevo intervalo es: </string>
+    <!---tabhost-->
+    <string name="mapa_host">Mapa</string>
+    <string name="atennas_host">Antennas</string>
+    <string name="alturas_hots">Alturas</string>
+    <string name="Distancia">distancia</string>
+    <string name="antenas_posibles">Antenas Posibles</string>
+    <string name="no_antenas_pos">No hay antenas en el radio especificado</string>
+    <string name="no_encontro">No se encontro una ubicacion ideal</string>
+    <string name="no_alturas">Sin internet no es posible obtener alturas para comparar</string>
+    <string name="distancia_antenna">Distancia Antena</string>
+    <string name="recargaralgura">Cargar Alturas</string>
+    <string name="no_pos_ideal">No hay una posicion factible</string>
+    <string name="graficas">Grafica</string>
+    <string name="ubicacion">Ubicación</string>
+    <string name="imposible_guardar">Imposible guardar cambios</string>
+    <!-- Guardar Archivo-->
+    <string name="archivo">antenas.csv</string>
+    <string name="imagen_guardada">Imagen guardada en Galeria</string>
+    <string name="imagen_no_guardada">Imposible Guardar Imagen</string>
+    <string name="imagen_ex">.png</string>
+    <string name="agregar_antena">Registro Nueva Antena</string>
+    <string name="nueva_antena_name">Nombre Antena</string>
+    <string name="titulo_invalido">Titulo Invalido</string>
+    <string name="latitud_invalidad">Latitud Invalida</string>
+    <string name="formato_mal">Mal Formato</string>
+    <string name="topografia">Perfil Topografico</string>
+    <string name="atenna">Antenna</string>
 </resources>

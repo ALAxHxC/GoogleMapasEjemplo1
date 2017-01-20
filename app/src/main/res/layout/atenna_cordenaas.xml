@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textViewMensaje"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/txtLongitud"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:numeric="signed|integer|decimal"
+        android:singleLine="true"></EditText>
+
+    <EditText
+        android:id="@+id/txtLatitud"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:numeric="signed|integer|decimal"
+        android:singleLine="true"
+        android:textIsSelectable="false">
+
+        <requestFocus></requestFocus>
+    </EditText>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnCancelar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="@string/cancelar"></Button>
+
+        <Button
+            android:id="@+id/btnRegistrar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="@string/registrar"></Button>
+    </LinearLayout>
+</LinearLayout>

@@ -3,13 +3,17 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 23
     buildToolsVersion "23.0.3"
-
     defaultConfig {
-        applicationId "com.dcs.googlempasejemplo1"
+        applicationId "com.ponny.radiomobile"
         minSdkVersion 15
         targetSdkVersion 23
         versionCode 1
         versionName "1.0"
+        multiDexEnabled true
+    }
+    dexOptions {
+        incremental true
+        javaMaxHeapSize "4g" // 2g should be also OK
     }
     buildTypes {
         release {
@@ -21,11 +25,13 @@ android {
 
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
-    testCompile 'junit:junit:4.12'
+
     compile 'com.android.support:appcompat-v7:23.2.1'
+    compile 'com.android.support:multidex:1.0.0'
     compile 'com.google.android.gms:play-services:9.0.0'
     compile 'com.google.maps.android:android-maps-utils:0.4.3'
     compile 'com.google.code.gson:gson:2.7'
     compile 'com.google.gms:google-services:3.0.0'
     compile 'com.android.support:support-v4:23.2.1'
+    compile files('libs/mpandroidchartlibrary-2-2-4.jar')
 }
